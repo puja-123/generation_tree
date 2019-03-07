@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>World War II</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .a{
+  	background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+
+	}
+
+    
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">World War II</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="main page.html">Home</a></li>
+       
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="row">
+     <div class = "col-sm-4">
+  	
+  <img src="data:image/jpeg;base64,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" height="275" width="350" hspace="20">
+</a>
+      </div>
+      <div class = "col-sm-6">
+  	<div class="container text-center">
+    	<br>
+	<h1>World War II</h1>    
+  
+	</div>
+      </div>
+  </div>
+</div>
+  
+
+<div class="a">
+
+<p style="font-size:150%;">
+In September 1939, Britain entered the Second World War. Lord Hailsham[24] suggested that the two princesses should be evacuated to Canada to avoid the frequent aerial bombing. This was rejected by Elizabeth's mother, who declared, "The children won't go without me. I won't leave without the King. And the King will never leave."[25] Princesses Elizabeth and Margaret stayed at Balmoral Castle, Scotland, until Christmas 1939, when they moved to Sandringham House, Norfolk.[26] From February to May 1940, they lived at Royal Lodge, Windsor, until moving to Windsor Castle, where they lived for most of the next five years.[27] At Windsor, the princesses staged pantomimes at Christmas in aid of the Queen's Wool Fund, which bought yarn to knit into military garments.[28] In 1940, the 14-year-old Elizabeth made her first radio broadcast during the BBC's Children's Hour, addressing other children who had been evacuated from the cities.[29] She stated: "We are trying to do all we can to help our gallant sailors, soldiers and airmen, and we are trying, too, to bear our share of the danger and sadness of war. We know, every one of us, that in the end all will be well."[29]
+
+In 1943, Elizabeth undertook her first solo public appearance on a visit to the Grenadier Guards, of which she had been appointed colonel the previous year.[30] As she approached her 18th birthday, parliament changed the law so she could act as one of five Counsellors of State in the event of her father's incapacity or absence abroad, such as his visit to Italy in July 1944.[31] In February 1945, she was appointed as an honorary second subaltern in the Auxiliary Territorial Service with the service number of 230873.[32] She trained as a driver and mechanic and was given the rank of honorary junior commander five months later.[33][34][35]
+
+
+Elizabeth (far left) on the balcony of Buckingham Palace with her family and Winston Churchill on 8 May 1945, Victory in Europe Day
+At the end of the war in Europe, on Victory in Europe Day, Princesses Elizabeth and Margaret mingled anonymously with the celebratory crowds in the streets of London. Elizabeth later said in a rare interview, "We asked my parents if we could go out and see for ourselves. I remember we were terrified of being recognised ... I remember lines of unknown people linking arms and walking down Whitehall, all of us just swept along on a tide of happiness and relief."[36]
+
+During the war, plans were drawn up to quell Welsh nationalism by affiliating Elizabeth more closely with Wales. Proposals, such as appointing her Constable of Caernarfon Castle or a patron of Urdd Gobaith Cymru (the Welsh League of Youth), were abandoned for several reasons, including fear of associating Elizabeth with conscientious objectors in the Urdd at a time when Britain was at war.[37] Welsh politicians suggested she be made Princess of Wales on her 18th birthday. Home Secretary, Herbert Morrison supported the idea, but the King rejected it because he felt such a title belonged solely to the wife of a Prince of Wales and the Prince of Wales had always been the heir apparent.[38] In 1946, she was inducted into the Welsh Gorsedd of Bards at the National Eisteddfod of Wales.[39]
+
+Princess Elizabeth went in 1947 on her first overseas tour, accompanying her parents through southern Africa. During the tour, in a broadcast to the British Commonwealth on her 21st birthday, she made the following pledge: "I declare before you all that my whole life, whether it be long or short, shall be devoted to your service and the service of our great imperial family to which we all belong."[40]
+</p>
+</div>
+
+</body>
+</html>

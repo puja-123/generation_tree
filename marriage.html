@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Marriage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    .a{
+  	background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+
+	}
+
+    
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Marriage</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="main page.html">Home</a></li>
+        
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div class="jumbotron">
+  <div class="row">
+     <div class = "col-sm-4">
+  <img src="data:image/jpeg;base64,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" height="275" width="350" hspace="20">
+</a>
+      </div>
+      <div class = "col-sm-6">
+  	<div class="container text-center">
+    	<br>
+	<h1>Marriage</h1>    
+  
+	</div>
+      </div>
+  </div>
+</div>
+  
+
+<div class="a">
+
+<p style="font-size:150%;">Elizabeth met her future husband, Prince Philip of Greece and Denmark, in 1934 and 1937.They are second cousins once removed through King Christian IX of Denmark and third cousins through Queen Victoria. After another meeting at the Royal Naval College in Dartmouth in July 1939, Elizabeth�though only 13 years old�said she fell in love with Philip, and they began to exchange letters.She was 21 when their engagement was officially announced on 9 July 1947.
+
+The engagement was not without controversy; Philip had no financial standing, was foreign-born (though a British subject who had served in the Royal Navy throughout the Second World War), and had sisters who had married German noblemen with Nazi links.Marion Crawford wrote, "Some of the King's advisors did not think him good enough for her. He was a prince without a home or kingdom. Some of the papers played long and loud tunes on the string of Philip's foreign origin."Later biographies reported Elizabeth's mother initially opposed the union, dubbing Philip "The Hun".[46] In later life, however, the Queen Mother told biographer Tim Heald that Philip was "an English gentleman".
+
+Before the marriage, Philip renounced his Greek and Danish titles, officially converted from Greek Orthodoxy to Anglicanism, and adopted the style Lieutenant Philip Mountbatten, taking the surname of his mother's British family.Just before the wedding, he was created Duke of Edinburgh and granted the style His Royal Highness.
+
+Elizabeth and Philip were married on 20 November 1947 at Westminster Abbey. They received 2,500 wedding gifts from around the world.Because Britain had not yet completely recovered from the devastation of the war, Elizabeth required ration coupons to buy the material for her gown, which was designed by Norman Hartnell.In post-war Britain, it was not acceptable for the Duke of Edinburgh's German relations, including his three surviving sisters, to be invited to the wedding.[52] The Duke of Windsor, formerly King Edward VIII, was not invited either.
+
+Elizabeth gave birth to her first child, Prince Charles, on 14 November 1948. One month earlier, the King had issued letters patent allowing her children to use the style and title of a royal prince or princess, to which they otherwise would not have been entitled as their father was no longer a royal prince.A second child, Princess Anne, was born in 1950.
+
+Following their wedding, the couple leased Windlesham Moor, near Windsor Castle, until July 1949,[50] when they took up residence at Clarence House in London. At various times between 1949 and 1951, the Duke of Edinburgh was stationed in the British Crown Colony of Malta as a serving Royal Navy officer. He and Elizabeth lived intermittently in Malta for several months at a time in the hamlet of Gwardamanga, at Villa Guardamangia, the rented home of Philip's uncle, Lord Mountbatten. The children remained in Britain.</p>
+</div>
+
+</body>
+</html>
